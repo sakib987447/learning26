@@ -1,0 +1,4 @@
+class based component
+function based component
+
+js : arrow function, normal function

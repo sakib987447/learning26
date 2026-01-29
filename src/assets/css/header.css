@@ -1,0 +1,13 @@
+.header{
+    background-color: blanchedalmond;
+    height : 200px;
+    width: 100px;
+    color: white;
+    display:flex;
+    text-align:center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    
+}

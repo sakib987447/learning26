@@ -1,0 +1,152 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    /* cursor:url(grabbing.png) 8 8, move; */
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+
+.scroll-box{padding:0px; position:relative;}
+/*.scroll-box-left{ background:url(../scroll/arrows.png) 0px -49px no-repeat; height:57px; width:36px; position:absolute; left:4px; top:30px; cursor:pointer;}
+.scroll-box-right{ background:url(../scroll/arrows.png) 2px 5px no-repeat; height:57px; width:40px;position:absolute; right:0;cursor:pointer; top:28px;}*/
+
+.item{margin:0;position:relative;}
+.item span{bottom: 0;color: #7a7a7a;display: block;height: 33px;left: 0;line-height: 20px;margin: auto;padding:0;position: absolute;right: 0;text-align: center;top: 0;
+    width: 115px;}
+.item span:hover{ color:#a1a1a1;}
+
+/* .agriculture{ background:url(../images/agriculture.png) center -60px no-repeat;height:56px;top:-3px; position:relative;}
+ */
+.agriculture:hover{ background-position:center 4px;}
+.agriculture span{ text-indent:-999px;}
+
+/* .defence{ background:url(../images/defence.png) center -60px no-repeat;height:56px;top:-3px; position:relative;}
+ */.defence:hover{ background-position:center 4px;}
+.defence span{ text-indent:-999px;}
+
+
+.education:hover{ background-position:center 1px;}
+.education span{ text-indent:-999px;}
+
+
+.transport:hover{ background-position:center 1px;}
+.transport span{ text-indent:-999px;}
+
+/* .health-family-welfare{ background:url(../images/health-family-welfare.png) center -63px no-repeat;height:56px;top:3px; position:relative;}
+ */.health-family-welfare:hover{ background-position:center 1px;}
+.health-family-welfare span{ text-indent:-999px;}
+
+/* .travel-tourism{ background:url(../images/travel-tourism.png) center -55px no-repeat;height:56px;top:3px; position:relative;}
+ */
+.travel-tourism:hover{ background-position:center 0px;}
+.travel-tourism span{ text-indent:-999px;}
+
+/* .parliament-of-india{ background:url(../images/parliament-of-india.png) center -60px no-repeat;height:56px;top:-3px; position:relative;}
+ */
+.parliament-of-india:hover{ background-position:center 4px;}
+.parliament-of-india span{ text-indent:-999px;}
+
+/* .governance-administration{ background:url(../images/governance-administratio.png) center -45px no-repeat;height:56px;top:-3px; position:relative;}
+ */
+/* .governance-administration:hover{ background:url(../images/governance-administration.png) center 10px no-repeat}
+ */
+.governance-administration span{ text-indent:-999px;}
+
+
+
+.biotechnology:hover{ background-position:center 1px;}
+.biotechnology span{ text-indent:-999px;}
+
+
+/* .environment-and-forest{ background:url(../images/environment-and-forest.png) center -63px no-repeat;height:63px;top:-3px; position:relative;}
+ */
+.environment-and-forest:hover{ background-position:center 1px;}
+.environment-and-forest span{ text-indent:-999px;}
+
+
+.economy:hover{ background-position:center 1px;}
+.economy span{ text-indent:-999px;}
+
+/* .science-technology{ background:url(../images/science-technology.png) center -63px no-repeat;height:63px;top:-3px; position:relative;}
+ */
+.science-technology:hover{ background-position:center 1px;}
+.science-technology span{ text-indent:-999px;}
+
+/* --10-11-2014--speeches-- */
+
+.pmrecentspeeches{/*background-color:#fff;box-shadow:0 1px 3px #aaa;margin: 0 0 15px;padding: 10px;*/}
+.pmrecentspeeches h2{ margin:0 0 15px 0;}
+.pmrecentspeeches .owl-item .item a{ font-size:100%; font-weight:bold; display:block; line-height:18px;margin:10px 0 0 0; color:#666;}
+.pmrecentspeeches .owl-item .item a:hover{color:#000;}
+.pmrecentspeeches .owl-buttons{ display:none;}
+.owl-theme .owl-controls .owl-page span{ margin:0 5px!important;}
+.pmrecentspeeches .speechlink{ margin:0; padding:0; text-align:right;}
+.pmrecentspeeches .speechlink a{ display:block; color:#3781ba; text-decoration:none; font-size:13px; text-transform:uppercase; 
+/* background:url(../images/arrow-read.png) */ center right no-repeat; font-weight:bold; padding:0 23px 0 0;}
+.pmrecentspeeches .owl-pagination{ float:left;}
+/* .pmrecentspeeches .speechlink a:hover{background:url(../images/arrow-live.png) center right no-repeat; color:#333;}
+ */
