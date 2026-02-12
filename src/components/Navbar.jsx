@@ -23,7 +23,10 @@ export const Navbar = () => {
                  <Link class="nav-link" to="/useStateDemo1">Use State demo1<span class="sr-only"></span></Link>
                 <Link class="nav-link" to="/employees">Employees<span class="sr-only"></span></Link>
                 <Link class="nav-link" to="/employees3">Employees3<span class="sr-only"></span></Link>
-                
+                <Link class="nav-link" to="/inputDemo2">Input Demo2<span class="sr-only"></span></Link>
+                <Link class="nav-link" to="/formDemo1">Form Submit<span class="sr-only"></span></Link>
+                <Link class="nav-link" to="/inputDropDown">Drop Down<span class="sr-only"></span></Link>
+
 
             </ul>
         </div>

@@ -4,6 +4,7 @@ export const EmployeesList = (props) => {
   const [name, setName] = useState("");
   const [roll, setRoll] = useState("");
   const [pass, setPass] = useState("");
+  const [mobile, setMobile] = useState("");
 
 
   const nameHandler = (e) => {
@@ -17,6 +18,9 @@ export const EmployeesList = (props) => {
   const passHandler = (e) => {
     setPass(e.target.value);
   };
+  const mobileHandler = (e) => {
+    setMobile(e.target.value);
+  };
 
   return (
     <div>
@@ -25,6 +29,7 @@ export const EmployeesList = (props) => {
       <p>{props.description.name}</p>
       <p>{props.description.age}</p>
      <p> {props.description.roll}</p>
+     <p> {props.description.mobile}</p>
       <hr />
 
       <label>Name</label>&nbsp;&nbsp;
@@ -53,6 +58,14 @@ export const EmployeesList = (props) => {
         onChange={passHandler}
       />
       <p>{pass}</p>
+
+      <label>Mobile</label>&nbsp;&nbsp;
+      <input
+        type="text"
+        placeholder="Enter your mobile number"
+        value={name}
+        onChange={mobileHandler}
+      />
     </div>
   );
 };
