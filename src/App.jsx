@@ -34,12 +34,16 @@ import { FormDemo1 } from './components/form/FormDemo1.jsx'
 import { InputDropDown} from './components/InputDropDown.jsx'
 import { FormDemo2 } from './components/form/FormDemo2.jsx'
 import { FormDemo3 } from './components/form/FormDemo3.jsx'
+import { FormDemo4 } from './components/form/FormDemo4.jsx'   
+import {ApiDemo1} from './components/api/ApiDemo1.jsx'
+import { ApiDemo2 } from './components/api/ApiDemo2.jsx'
+import { ApiDemo3 } from './components/api/ApiDemo3.jsx'
 
 function App() {
   //js code... num ber, string, underfined, boolean, object.
   return (
     <div>
-     {/*} <Navbar></Navbar>*/}
+     <Navbar></Navbar>
       <Routes> 
           {/*<Route path="/" element={<NetflixHome />}></Route>
           <Route path="/netflixmovies" element={<NetflixMovies/>}></Route>
@@ -53,18 +57,22 @@ function App() {
           <Route path="/useStateDemo1" element={<UseStateDemo1/>}></Route>
           <Route path="/employees" element={<Employees/>}></Route>
           <Route path="/employees3" element={<Employess3/>}></Route>
-          <Route path="/inputDemo2" element={<InputDemo2/>}></Route>
-          <Route path="/formDemo1" element={<FormDemo1/>}></Route>
+          <Route path="/inputDemo2" element={<InputDemo2/>}></Route> */}
+
+         {/* <Route path="/formDemo1" element={<FormDemo1/>}></Route>
           <Route path="/inputDropDown" element={<InputDropDown/>}></Route>
-           <Route path="/formDemo2" element={<FormDemo2/>}></Route>*/}
-    
+          <Route path="/formDemo2" element={<FormDemo2/>}></Route>
+          <Route path="/formDemo3" element={<FormDemo3/>}></Route>*/}
+          <Route path="/formDemo4" element={<FormDemo4/>}></Route>
+          <Route path="/apiDemo1" element={<ApiDemo1/>}></Route>
+           <Route path="/apiDemo2" element={<ApiDemo2/>}></Route>
+            <Route path="/apiDemo3" element={<ApiDemo3/>}></Route>
+     
+
    </Routes>
-   {/*test commit*/}
-   {/*<FormDemo2></FormDemo2>*/}
-   <FormDemo3></FormDemo3>  
+   
       </div>
   )
 }
-
 
 export default App;

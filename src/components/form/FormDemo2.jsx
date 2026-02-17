@@ -36,16 +36,10 @@ export const FormDemo2 = () => {
                 message:"max 20 char is accepted****"
             },
               
+            
 
         },
-        
-      
-
     }
-
-
-
-
     const submitHandler = (data)=>{
         alert("form subbmited...")
         console.log(data)

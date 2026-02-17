@@ -15,25 +15,25 @@ export const FormDemo3 = () => {
             },
             min:{
                 value:18,
-                message:"min age should be 18*"
+                message:"Min age should be 18*"
             },
             max:{
                 value:60,
-                message:"max age should be 60*"
+                message:"Max age should be 60*"
             }
         },
         addressValidator:{
             required:{
                 value:true,
-                message:"address is required*"
+                message:"Address is required*"
             },
             minLength:{
                 value:5,
-                message:"min 5 char is required"
+                message:"Min 5 char is required"
             },
             maxLength:{
                 value:20,
-                message:"max 20 char is accepted****"
+                message:"Max 20 char is accepted****"
             },
               
 
@@ -45,22 +45,14 @@ export const FormDemo3 = () => {
             },
             minLength:{
                 value:15,
-                message:"min 15 char is required",    
+                message:"Min 15 char is required",    
             },
             maxLength:{
                 value:20,
                 message:"Max char 20",
             },
         },
-
-        
-      
-
     }
-
-
-
-
     const submitHandler = (data)=>{
         alert("form subbmited...")
         console.log(data)

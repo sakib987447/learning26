@@ -6,7 +6,7 @@ export const FormDemo1 = () => {
   const {register,handleSubmit} = useForm()
   const [userData, setuserData] = useState({})
   const [isSubmited, setisSubmited] = useState(false)
-
+  
   const submitHandler = (data)=>{
     console.log(data)
     setuserData(data)
@@ -36,7 +36,7 @@ export const FormDemo1 = () => {
             SCCROLLING :<input type='checkbox' value="scrolling" {...register("hobbies")}></input>
           </div>
         <div>
-            <input type='submit'></input>
+            <input type='submit'>Submit</input>
           </div>
         </form>
           {
@@ -46,7 +46,7 @@ export const FormDemo1 = () => {
           <h2>Age = {userData.age}</h2>
         </div>
           }
-        
+          
     </div>
   )
 }

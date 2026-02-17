@@ -11,7 +11,7 @@ export const InputDropDown = () => {
   };
 
   return (
-    <div>
+    <div style={{textAlign:"center", backgroundColor:"pink", height:"609px", color:"blue"}}>
       <h2>Country & State Dropdown</h2>
 
    
@@ -55,3 +55,4 @@ export const InputDropDown = () => {
     </div>
   );
 };
+
