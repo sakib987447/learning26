@@ -38,6 +38,11 @@ import { FormDemo4 } from './components/form/FormDemo4.jsx'
 import {ApiDemo1} from './components/api/ApiDemo1.jsx'
 import { ApiDemo2 } from './components/api/ApiDemo2.jsx'
 import { ApiDemo3 } from './components/api/ApiDemo3.jsx'
+import ApiDemo4 from './components/api/ApiDemo4.jsx'
+import ApiDemo5 from './components/api/ApiDemo5.jsx'
+import ApiDemo6 from './components/api/ApiDemo6.jsx'
+import ApiDemo7 from './components/api/ApiDemo7.jsx'
+
 
 function App() {
   //js code... num ber, string, underfined, boolean, object.
@@ -67,6 +72,10 @@ function App() {
           <Route path="/apiDemo1" element={<ApiDemo1/>}></Route>
            <Route path="/apiDemo2" element={<ApiDemo2/>}></Route>
             <Route path="/apiDemo3" element={<ApiDemo3/>}></Route>
+            <Route path="/apiDemo4" element={<ApiDemo4/>}></Route>
+             <Route path="/apiDemo5" element={<ApiDemo5/>}></Route>
+              <Route path="/apiDemo6" element={<ApiDemo6/>}></Route>
+               <Route path="/apiDemo7" element={<ApiDemo7/>}></Route>
      
 
    </Routes>

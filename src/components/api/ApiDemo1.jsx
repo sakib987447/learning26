@@ -15,7 +15,7 @@ export const ApiDemo1 = () => {
     console.log("Arry of object");
     setData(promises.data.data);
     }
-
+    
   return (
     <div style={{textAlign:"center"}}>
         <div>

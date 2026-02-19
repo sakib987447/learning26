@@ -22,7 +22,7 @@ export const ApiDemo2 = () => {
 
             <h2>Message: {message}</h2>
 
-            <table border="5" cellPadding="10" style={{ margin: "20px auto"}}>
+            <table border="1" cellPadding="10" style={{ margin: "20px auto"}}>
                 <thead>
                     <tr>
                         <th>ID</th>

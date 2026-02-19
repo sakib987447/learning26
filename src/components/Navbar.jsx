@@ -39,7 +39,11 @@ export const Navbar = () => {
                 <Link className="nav-link" to="/formDemo4">Form Demo 4<span className="sr-only"></span></Link>
                 <Link className="nav-link" to="/apiDemo1">Api Demo 1<span className="sr-only"></span></Link>
                  <Link className="nav-link" to="/apiDemo2">Api Demo 2<span className="sr-only"></span></Link> 
-                   <Link className="nav-link" to="/apiDemo3">Api Demo 3<span className="sr-only"></span></Link>    
+                   <Link className="nav-link" to="/apiDemo3">Api Demo 3<span className="sr-only"></span></Link>
+                      <Link className="nav-link" to="/apiDemo4">Api Demo 4<span className="sr-only"></span></Link>
+                      <Link className="nav-link" to="/apiDemo5">Api Demo 5<span className="sr-only"></span></Link>
+                       <Link className="nav-link" to="/apiDemo6">Api Demo 6<span className="sr-only"></span></Link> 
+                        <Link className="nav-link" to="/apiDemo7">Api Demo 7<span className="sr-only"></span></Link>     
             </ul>
         </div>
     </nav>
